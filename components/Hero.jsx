@@ -137,31 +137,29 @@ export default function Hero() {
       id="home"
       className="relative h-screen w-full overflow-hidden bg-white"
     >
-<<<<<<< HEAD
+
       <VideoCutout
         src="/videos/hero.mp4"
         className="absolute inset-0 h-full w-full object-contain object-right"
       />
-=======
       <div className="hidden lg:block">
         <VideoCutout
           src="/videos/hero.mp4"
           className="absolute inset-0 h-full w-full object-contain object-right"
         />
       </div>
->>>>>>> 7de87f5 (Ecom project with Supabase admin login)
 
       <div ref={contentRef} className="relative z-10 flex h-full flex-col">
         <div ref={navRef}>
           <Navbar variant="hero" />
         </div>
 
-<<<<<<< HEAD
+
         <div className="grid flex-1 grid-cols-12 items-center gap-8 px-8 md:px-14">
             <div className="col-span-12 flex flex-col gap-7 lg:col-span-7">
-=======
+
 <div className="grid flex-1 grid-cols-12 items-start gap-8 px-8 pt-4 md:px-14 lg:items-center lg:pt-0">            <div className="col-span-12 flex flex-col gap-7 lg:col-span-7">
->>>>>>> 7de87f5 (Ecom project with Supabase admin login)
+
               <div
                 ref={badgeRef}
                 className="inline-flex w-fit items-center gap-2 rounded-full bg-white px-4 py-2 text-xs font-semibold tracking-wider text-ink shadow-neu"
@@ -181,25 +179,24 @@ export default function Hero() {
                   </span>
                 </span>
               </h1>
-<<<<<<< HEAD
 
-=======
+
               <div className="relative h-[34vh] w-full lg:hidden">
                 <VideoCutout
                   src="/videos/hero.mp4"
                   className="h-full w-full object-contain object-center"
                 />
               </div>
->>>>>>> 7de87f5 (Ecom project with Supabase admin login)
+
               <p ref={subtextRef} className="max-w-sm text-base text-ink/60 md:text-lg">
                 Bold looks. Clean fits. Built to stand out anywhere.
               </p>
 
-<<<<<<< HEAD
+ 
               <div className="flex flex-wrap items-center gap-5">
-=======
+
                 <div className="hidden flex-wrap items-center gap-5 lg:flex">
->>>>>>> 7de87f5 (Ecom project with Supabase admin login)
+
                 <button
                   ref={addCtaRef}
                   type="button"
@@ -278,11 +275,9 @@ export default function Hero() {
             </div>
           </div>
 
-<<<<<<< HEAD
           <div ref={statsRef} className="px-8 pb-8 md:px-14">
-=======
+
          <div ref={statsRef} className="hidden px-8 pb-8 md:block md:px-14">
->>>>>>> 7de87f5 (Ecom project with Supabase admin login)
             <div className="flex w-fit divide-x divide-black/10 rounded-3xl bg-white/85 shadow-neu-lg backdrop-blur-sm">
               {stats.map(({ icon: Icon, value, label }) => (
                 <div key={label} className="flex items-center gap-3 px-6 py-4">

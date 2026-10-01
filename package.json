@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
   "name": "drift",
   "version": "0.1.0",
-=======
-  "name": "aurelle",
-  "version": "1.0.0",
->>>>>>> 7de87f5 (Ecom project with Supabase admin login)
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -14,40 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "gsap": "^3.15.0",
-    "lenis": "^1.1.13",
-    "lucide-react": "^0.408.0",
-    "next": "14.2.35",
-=======
-    "@studio-freight/lenis": "^1.0.42",
     "@supabase/ssr": "^0.5.2",
     "@supabase/supabase-js": "^2.117.2",
     "gsap": "^3.15.0",
-    "jspdf": "^4.2.1",
-    "jspdf-autotable": "^5.0.8",
     "lenis": "^1.3.26",
     "lucide-react": "^0.408.0",
-    "next": "14.2.5",
->>>>>>> 7de87f5 (Ecom project with Supabase admin login)
+    "next": "14.2.35",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "run": "^2.1.6"
   },
   "devDependencies": {
-<<<<<<< HEAD
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.40",
     "tailwindcss": "^3.4.7"
-=======
-    "@types/node": "^20.14.9",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
-    "autoprefixer": "^10.4.19",
-    "eslint": "^8.57.0",
-    "eslint-config-next": "14.2.5",
-    "postcss": "^8.4.39",
-    "tailwindcss": "^3.4.4",
-    "typescript": "^5.5.3"
->>>>>>> 7de87f5 (Ecom project with Supabase admin login)
   }
 }
