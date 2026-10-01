@@ -1,10 +1,7 @@
 "use client";
 
 import Image from "next/image";
-<<<<<<< HEAD
-=======
 import Link from "next/link";
->>>>>>> 7de87f5 (Ecom project with Supabase admin login)
 import { useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -32,6 +29,7 @@ export default function Footer() {
     }, sectionRef);
     return () => ctx.revert();
   }, []);
+
   return (
     <footer ref={sectionRef} className="w-full bg-ink relative pt-6 pb-2 overflow-hidden">
       {/* Background Section with large text */}
@@ -40,22 +38,19 @@ export default function Footer() {
           <span className="text-white/80 text-xs md:text-sm tracking-wide mt-16 ml-4 hidden md:block">
             The
           </span>
-          
+
           <div className="foot-reveal relative text-center flex-1 flex justify-center">
             {/* The text */}
-            <h1 
+            <h1
               className="text-[4rem] sm:text-[6rem] md:text-[8rem] lg:text-[10rem] xl:text-[12rem] font-sans font-bold leading-none tracking-tighter"
               style={{
-                background: 'linear-gradient(to bottom, #ffffff 25%, transparent 85%)',
-                WebkitBackgroundClip: 'text',
-                WebkitTextFillColor: 'transparent',
+                background: "linear-gradient(to bottom, #ffffff 25%, transparent 85%)",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
               }}
             >
               AADHEERA
             </h1>
-            
-            {/* Floating image over 'z' / 'y' */}
-            
           </div>
 
           <span className="text-white/80 text-xs md:text-sm tracking-wide mt-16 mr-4 hidden md:block">
@@ -67,11 +62,11 @@ export default function Footer() {
       {/* The foreground box */}
       <div className="relative z-10 w-full max-w-[1400px] mx-auto px-4 md:px-6 mt-[4rem] sm:mt-[6rem] md:mt-[8rem] lg:mt-[10rem]">
         <div className="foot-reveal bg-white rounded-[1.5rem] md:rounded-[2rem] w-full p-5 md:p-8 lg:p-10 shadow-xl relative overflow-hidden">
-          
+
           {/* Decorative holes */}
           <div className="absolute top-4 left-4 md:top-6 md:left-6 w-4 h-4 rounded-full bg-ink"></div>
           <div className="absolute top-4 right-4 md:top-6 md:right-6 w-4 h-4 rounded-full bg-ink"></div>
-          
+
           <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-4 md:gap-8 mt-6 md:mt-8 lg:mt-10 mb-8 md:mb-12">
             <h2 className="text-ink text-3xl sm:text-4xl md:text-5xl lg:text-[4rem] font-bold leading-[1.05] tracking-tight max-w-[24rem]">
               Step Into Your<br />Best Style
@@ -95,16 +90,11 @@ export default function Footer() {
               <span className="text-lg">©</span>
               <p>2026 Drift. All rights reserved.</p>
             </div>
-<<<<<<< HEAD
-            <div className="flex gap-8">
-              <a href="#" className="hover:text-ink transition-colors">Term & Condition</a>
-              <a href="#" className="hover:text-ink transition-colors">Privacy Policy</a>
-=======
+
             <div className="flex flex-wrap justify-center gap-x-8 gap-y-2">
               <a href="#" className="hover:text-ink transition-colors">Term & Condition</a>
               <a href="#" className="hover:text-ink transition-colors">Privacy Policy</a>
               <Link href="/admin-login" className="hover:text-ink transition-colors">Admin Login</Link>
->>>>>>> 7de87f5 (Ecom project with Supabase admin login)
             </div>
           </div>
         </div>
