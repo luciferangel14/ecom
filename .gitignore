@@ -1,0 +1,10 @@
+<<<<<<< HEAD
+node_modules
+=======
+node_modules 
+.next 
+out 
+.env*.local 
+.DS_Store 
+*.log
+>>>>>>> 7de87f5 (Ecom project with Supabase admin login)
